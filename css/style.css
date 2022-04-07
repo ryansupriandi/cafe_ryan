@@ -1,0 +1,25 @@
+.main-color{
+    background-color:  rgb(180, 5, 151) !important;
+}
+
+.banner{
+    height:80vh;
+    background: linear-gradient(rgba(0,0,0, 0.4), rgba(0,0,0, 0.4)),url('../image/banner.jpg ');
+background-size: cover;
+background-position:center ;}
+
+.hovered-card{
+transition: 0.5s;
+}
+
+.hovered-card:hover{
+ transform: scale(1.2);   
+}
+
+.icon-service{
+    width: 90px;
+    height: 90px;
+    border: solid #fff 2px;
+    border-radius: 50%;
+    color: #fff;
+}
